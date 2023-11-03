@@ -3,7 +3,7 @@ package Library_V2_SOLID;
 public class Book extends Editions implements Detailable {
     private String bookName;
     private String author;
-    private int yearOfEdition;
+    private int yearOfEdition = 2003;
 
     public Book(String bookName, String author, int yearOfEdition) {
         this.bookName = bookName;
