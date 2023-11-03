@@ -5,6 +5,7 @@ public class Book extends Editions implements Detailable {
     private String author;
     private int yearOfEdition = 2003;
 
+
     public Book(String bookName, String author, int yearOfEdition) {
         this.bookName = bookName;
         this.author = author;
